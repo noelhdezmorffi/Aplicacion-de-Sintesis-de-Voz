@@ -1,4 +1,4 @@
-# 📖 Aplicación deA Síntesis de Voz
+# 📖 Aplicación de Síntesis de Voz
 
 Una aplicación de escritorio offline para **leer en voz alta** documentos, imágenes e incluso el contenido de la pantalla. Ideal para accesibilidad, productividad y lectura asistida.
 
