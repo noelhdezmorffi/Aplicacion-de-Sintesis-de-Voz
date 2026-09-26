@@ -1,0 +1,148 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                    ⚠️ PYTHON NO ESTÁ INSTALADO ⚠️                          ║
+║                                                                              ║
+║              Necesitas instalar Python antes de continuar                    ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════════
+🔧 SOLUCIÓN PASO A PASO
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 1: Verificar si Python está instalado
+──────────────────────────────────────────
+
+1. Abre PowerShell (Presiona: Win + X, luego selecciona PowerShell)
+2. Escribe: python --version
+3. Presiona Enter
+
+RESULTADO ESPERADO:
+  ✓ Si dice "Python 3.11.x" o similar → Python SÍ está instalado
+  ✗ Si dice "python : No se reconoce..." → Ve al PASO 2
+
+
+PASO 2: Instalar Python (si no está)
+──────────────────────────────────────
+
+1. Abre tu navegador
+2. Visita: https://www.python.org/downloads/
+3. Descarga "Python 3.11" o superior (versión para tu OS)
+4. Ejecuta el instalador
+
+   ⚠️ IMPORTANTE EN LA PANTALLA DE INSTALACIÓN:
+   
+   ☑ Marca esta opción:
+   ┌─────────────────────────────────────┐
+   │ ☑ Add Python 3.x to PATH           │
+   │ ☑ Add python.exe to PATH           │
+   └─────────────────────────────────────┘
+   
+   - Esto es OBLIGATORIO para que funcione
+
+5. Haz clic en "Install Now"
+6. Espera a que termine la instalación
+7. Haz clic en "Close"
+
+
+PASO 3: Reiniciar la Computadora
+─────────────────────────────────
+
+1. Reinicia tu computadora completamente
+2. Esto es importante para que Windows reconozca Python
+
+
+PASO 4: Verificar nuevamente
+─────────────────────────────
+
+1. Abre una NUEVA ventana de PowerShell
+2. Escribe: python --version
+3. Debería mostrar "Python 3.11.x" o similar
+
+   ✓ SI FUNCIONA → Ve al PASO 5
+   ✗ SI NO FUNCIONA → Lee "PYTHON_SETUP.md"
+
+
+PASO 5: Ejecutar el Instalador de Lector IA
+─────────────────────────────────────────────
+
+1. Abre PowerShell
+2. Navega a la carpeta del proyecto:
+   cd "C:\Users\neutr\Desktop\proyectos\modelo ia lector"
+   
+3. Ejecuta:
+   .\diagnose.bat
+   
+   Esto verificará que Python está instalado correctamente
+   
+4. Si todo está bien, ejecuta:
+   .\install.bat
+   
+   Esto instalará todas las dependencias necesarias
+
+
+═══════════════════════════════════════════════════════════════════════════════
+🆘 SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════════════════════════════
+
+"Python seguía sin funcionar después de reinstalar"
+
+Solución:
+
+1. Abre Panel de Control
+2. Ve a: Programas → Programas y Características
+3. Busca "Python"
+4. Selecciona la versión de Python
+5. Haz clic en "Modify" o "Cambiar"
+6. Marca nuevamente "Add Python to PATH"
+7. Haz clic en "Install"
+8. Reinicia la computadora
+
+
+═══════════════════════════════════════════════════════════════════════════════
+📋 CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+
+Marca cada paso cuando lo completes:
+
+☐ 1. Descargué Python desde python.org
+☐ 2. Ejecuté el instalador de Python
+☐ 3. Marqué "Add Python to PATH" durante la instalación
+☐ 4. Reinicié mi computadora
+☐ 5. Abrí una NUEVA PowerShell
+☐ 6. Ejecuté: python --version
+☐ 7. Me mostró "Python 3.11.x" o similar
+☐ 8. Ejecuté: diagnose.bat
+☐ 9. Todo pasó correctamente
+☐ 10. Ejecuté: install.bat
+☐ 11. Se instalaron todas las dependencias
+
+
+═══════════════════════════════════════════════════════════════════════════════
+✅ DESPUÉS DE INSTALAR PYTHON
+═══════════════════════════════════════════════════════════════════════════════
+
+Cuando todo esté configurado:
+
+1. Descarga Tesseract OCR:
+   https://github.com/UB-Mannheim/tesseract/wiki
+   
+2. Instala Tesseract (en C:\Program Files\Tesseract-OCR)
+
+3. Ejecuta la aplicación:
+   .\run.bat
+
+
+═══════════════════════════════════════════════════════════════════════════════
+📞 NECESITAS AYUDA?
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Lee: PYTHON_SETUP.md (en esta carpeta)
+2. Lee: TROUBLESHOOTING.md (en esta carpeta)
+3. Ejecuta: diagnose.bat (para diagnosticar automáticamente)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+¡Una vez instales Python, todo lo demás funcionará correctamente! 🚀
